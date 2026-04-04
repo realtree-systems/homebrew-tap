@@ -5,7 +5,7 @@ class Jyro < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/realtreesystems/jyro-cli/releases/download/v0.9.80/jyro-0.9.80-osx-arm64.tar.gz"
+      url "https://github.com/realtree-systems/jyro-cli/releases/download/v0.9.80/jyro-0.9.80-osx-arm64.tar.gz"
       sha256 "351dafbc39164a7fc641359e409fc459b8679e3d579ee5f8f83a3f6b4cd20be6"
     end
   end
